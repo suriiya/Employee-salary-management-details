@@ -1,0 +1,135 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+/* Table header styling */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Table row hover effect */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form section styling */
+#employeeForm {
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#formTitle {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input fields, select, and textarea styling */
+#employeeForm input,
+#employeeForm select,
+#employeeForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Textarea specific styling */
+#employeeForm textarea {
+    resize: vertical;
+}
+
+/* Buttons styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Specific styling for different buttons */
+#viewBtn {
+    background-color: #007BFF;
+}
+
+#viewBtn:hover {
+    background-color: #0056b3;
+}
+
+#cancelBtn {
+    background-color: #f44336;
+}
+
+#cancelBtn:hover {
+    background-color: #d32f2f;
+}
+
+/* Disabled input styling (for Employee ID) */
+input[disabled] {
+    background-color: #f0f0f0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #employeeForm {
+        width: 100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+    }
+}
